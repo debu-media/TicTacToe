@@ -24,11 +24,6 @@ namespace TicTacToe
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Game_FormClosed(object sender, FormClosedEventArgs e)
         {
             this.Hide();
@@ -40,6 +35,11 @@ namespace TicTacToe
         private void Game_FormClosing(object sender, FormClosingEventArgs e)
         {
             Dispose();
+           
+        }
+
+        private void OneOne_Click(object sender, EventArgs e)
+        {
            
         }
     }

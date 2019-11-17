@@ -53,6 +53,7 @@
             this.OneOne.Size = new System.Drawing.Size(91, 82);
             this.OneOne.TabIndex = 0;
             this.OneOne.UseVisualStyleBackColor = true;
+            this.OneOne.Click += new System.EventHandler(this.OneOne_Click);
             // 
             // OneTwo
             // 
@@ -208,7 +209,6 @@
             this.button1.TabIndex = 15;
             this.button1.Text = "Restart";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Game
             // 
