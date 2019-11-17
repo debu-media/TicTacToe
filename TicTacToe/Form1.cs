@@ -34,7 +34,8 @@ namespace TicTacToe
         private void HumanVsComputer_Click_1(object sender, EventArgs e)
         {
             Game StartGame = new Game("Computer");
-            StartGame.Show();
+            StartGame.ShowDialog();
+            this.Close();
         }
 
         private void Credits_Click(object sender, EventArgs e)
