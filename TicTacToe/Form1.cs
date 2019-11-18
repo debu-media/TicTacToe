@@ -42,7 +42,6 @@ namespace TicTacToe
         {
             ClearData();
             CreditsLBL.Show();
-
         }
 
         private void Settings_Click(object sender, EventArgs e)
@@ -51,7 +50,6 @@ namespace TicTacToe
             OnePlayerNameTXT.Show();
             TwoPlayerNameTXT.Show();
             Save.Show();
-  
         }
 
         private void ClearData()

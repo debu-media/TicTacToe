@@ -62,6 +62,7 @@
             this.OneTwo.Size = new System.Drawing.Size(91, 82);
             this.OneTwo.TabIndex = 1;
             this.OneTwo.UseVisualStyleBackColor = true;
+            this.OneTwo.Click += new System.EventHandler(this.OneTwo_Click);
             // 
             // OneThree
             // 
@@ -70,6 +71,7 @@
             this.OneThree.Size = new System.Drawing.Size(91, 82);
             this.OneThree.TabIndex = 2;
             this.OneThree.UseVisualStyleBackColor = true;
+            this.OneThree.Click += new System.EventHandler(this.OneThree_Click);
             // 
             // TwoOne
             // 
@@ -78,6 +80,7 @@
             this.TwoOne.Size = new System.Drawing.Size(91, 82);
             this.TwoOne.TabIndex = 3;
             this.TwoOne.UseVisualStyleBackColor = true;
+            this.TwoOne.Click += new System.EventHandler(this.TwoOne_Click);
             // 
             // TwoTwo
             // 
@@ -86,6 +89,7 @@
             this.TwoTwo.Size = new System.Drawing.Size(91, 82);
             this.TwoTwo.TabIndex = 4;
             this.TwoTwo.UseVisualStyleBackColor = true;
+            this.TwoTwo.Click += new System.EventHandler(this.TwoTwo_Click);
             // 
             // TwoThree
             // 
@@ -94,6 +98,7 @@
             this.TwoThree.Size = new System.Drawing.Size(91, 82);
             this.TwoThree.TabIndex = 5;
             this.TwoThree.UseVisualStyleBackColor = true;
+            this.TwoThree.Click += new System.EventHandler(this.TwoThree_Click);
             // 
             // ThreeOne
             // 
@@ -102,6 +107,7 @@
             this.ThreeOne.Size = new System.Drawing.Size(91, 82);
             this.ThreeOne.TabIndex = 6;
             this.ThreeOne.UseVisualStyleBackColor = true;
+            this.ThreeOne.Click += new System.EventHandler(this.ThreeOne_Click);
             // 
             // ThreeTwo
             // 
@@ -110,6 +116,7 @@
             this.ThreeTwo.Size = new System.Drawing.Size(91, 82);
             this.ThreeTwo.TabIndex = 7;
             this.ThreeTwo.UseVisualStyleBackColor = true;
+            this.ThreeTwo.Click += new System.EventHandler(this.ThreeTwo_Click);
             // 
             // ThreeThree
             // 
@@ -118,6 +125,7 @@
             this.ThreeThree.Size = new System.Drawing.Size(91, 82);
             this.ThreeThree.TabIndex = 8;
             this.ThreeThree.UseVisualStyleBackColor = true;
+            this.ThreeThree.Click += new System.EventHandler(this.ThreeThree_Click);
             // 
             // UserOneName
             // 

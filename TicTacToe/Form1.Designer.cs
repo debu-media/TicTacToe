@@ -70,7 +70,7 @@
             this.HumanVsComputer.Name = "HumanVsComputer";
             this.HumanVsComputer.Size = new System.Drawing.Size(414, 66);
             this.HumanVsComputer.TabIndex = 2;
-            this.HumanVsComputer.Text = "Human vs Human";
+            this.HumanVsComputer.Text = "Human vs Computer";
             this.HumanVsComputer.UseVisualStyleBackColor = false;
             this.HumanVsComputer.Click += new System.EventHandler(this.HumanVsComputer_Click_1);
             // 
@@ -145,7 +145,7 @@
             // CreditsLBL
             // 
             this.CreditsLBL.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.CreditsLBL.Location = new System.Drawing.Point(44, 112);
+            this.CreditsLBL.Location = new System.Drawing.Point(44, 110);
             this.CreditsLBL.Name = "CreditsLBL";
             this.CreditsLBL.Size = new System.Drawing.Size(414, 208);
             this.CreditsLBL.TabIndex = 9;
