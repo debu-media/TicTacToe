@@ -48,6 +48,7 @@
             // 
             // OneOne
             // 
+            this.OneOne.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.OneOne.Location = new System.Drawing.Point(12, 12);
             this.OneOne.Name = "OneOne";
             this.OneOne.Size = new System.Drawing.Size(91, 82);
@@ -57,6 +58,7 @@
             // 
             // OneTwo
             // 
+            this.OneTwo.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F);
             this.OneTwo.Location = new System.Drawing.Point(109, 12);
             this.OneTwo.Name = "OneTwo";
             this.OneTwo.Size = new System.Drawing.Size(91, 82);
@@ -66,6 +68,7 @@
             // 
             // OneThree
             // 
+            this.OneThree.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F);
             this.OneThree.Location = new System.Drawing.Point(206, 12);
             this.OneThree.Name = "OneThree";
             this.OneThree.Size = new System.Drawing.Size(91, 82);
@@ -75,6 +78,7 @@
             // 
             // TwoOne
             // 
+            this.TwoOne.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F);
             this.TwoOne.Location = new System.Drawing.Point(12, 100);
             this.TwoOne.Name = "TwoOne";
             this.TwoOne.Size = new System.Drawing.Size(91, 82);
@@ -84,6 +88,7 @@
             // 
             // TwoTwo
             // 
+            this.TwoTwo.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F);
             this.TwoTwo.Location = new System.Drawing.Point(109, 100);
             this.TwoTwo.Name = "TwoTwo";
             this.TwoTwo.Size = new System.Drawing.Size(91, 82);
@@ -93,6 +98,7 @@
             // 
             // TwoThree
             // 
+            this.TwoThree.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F);
             this.TwoThree.Location = new System.Drawing.Point(206, 100);
             this.TwoThree.Name = "TwoThree";
             this.TwoThree.Size = new System.Drawing.Size(91, 82);
@@ -102,6 +108,7 @@
             // 
             // ThreeOne
             // 
+            this.ThreeOne.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F);
             this.ThreeOne.Location = new System.Drawing.Point(12, 188);
             this.ThreeOne.Name = "ThreeOne";
             this.ThreeOne.Size = new System.Drawing.Size(91, 82);
@@ -111,6 +118,7 @@
             // 
             // ThreeTwo
             // 
+            this.ThreeTwo.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F);
             this.ThreeTwo.Location = new System.Drawing.Point(109, 188);
             this.ThreeTwo.Name = "ThreeTwo";
             this.ThreeTwo.Size = new System.Drawing.Size(91, 82);
@@ -120,6 +128,7 @@
             // 
             // ThreeThree
             // 
+            this.ThreeThree.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F);
             this.ThreeThree.Location = new System.Drawing.Point(206, 188);
             this.ThreeThree.Name = "ThreeThree";
             this.ThreeThree.Size = new System.Drawing.Size(91, 82);
@@ -217,6 +226,7 @@
             this.button1.TabIndex = 15;
             this.button1.Text = "Restart";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Game
             // 
