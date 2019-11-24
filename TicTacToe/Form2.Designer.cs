@@ -48,91 +48,128 @@
             // 
             // OneOne
             // 
+            this.OneOne.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.OneOne.CausesValidation = false;
+            this.OneOne.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.OneOne.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.OneOne.ForeColor = System.Drawing.SystemColors.ControlText;
             this.OneOne.Location = new System.Drawing.Point(12, 12);
             this.OneOne.Name = "OneOne";
             this.OneOne.Size = new System.Drawing.Size(91, 82);
             this.OneOne.TabIndex = 0;
+            this.OneOne.TabStop = false;
             this.OneOne.UseVisualStyleBackColor = true;
             this.OneOne.Click += new System.EventHandler(this.OneOne_Click);
             // 
             // OneTwo
             // 
+            this.OneTwo.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.OneTwo.CausesValidation = false;
+            this.OneTwo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.OneTwo.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F);
             this.OneTwo.Location = new System.Drawing.Point(109, 12);
             this.OneTwo.Name = "OneTwo";
             this.OneTwo.Size = new System.Drawing.Size(91, 82);
             this.OneTwo.TabIndex = 1;
+            this.OneTwo.TabStop = false;
             this.OneTwo.UseVisualStyleBackColor = true;
             this.OneTwo.Click += new System.EventHandler(this.OneTwo_Click);
             // 
             // OneThree
             // 
+            this.OneThree.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.OneThree.CausesValidation = false;
+            this.OneThree.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.OneThree.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F);
             this.OneThree.Location = new System.Drawing.Point(206, 12);
             this.OneThree.Name = "OneThree";
             this.OneThree.Size = new System.Drawing.Size(91, 82);
             this.OneThree.TabIndex = 2;
+            this.OneThree.TabStop = false;
             this.OneThree.UseVisualStyleBackColor = true;
             this.OneThree.Click += new System.EventHandler(this.OneThree_Click);
             // 
             // TwoOne
             // 
+            this.TwoOne.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.TwoOne.CausesValidation = false;
+            this.TwoOne.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.TwoOne.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F);
             this.TwoOne.Location = new System.Drawing.Point(12, 100);
             this.TwoOne.Name = "TwoOne";
             this.TwoOne.Size = new System.Drawing.Size(91, 82);
             this.TwoOne.TabIndex = 3;
+            this.TwoOne.TabStop = false;
             this.TwoOne.UseVisualStyleBackColor = true;
             this.TwoOne.Click += new System.EventHandler(this.TwoOne_Click);
             // 
             // TwoTwo
             // 
+            this.TwoTwo.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.TwoTwo.CausesValidation = false;
+            this.TwoTwo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.TwoTwo.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F);
             this.TwoTwo.Location = new System.Drawing.Point(109, 100);
             this.TwoTwo.Name = "TwoTwo";
             this.TwoTwo.Size = new System.Drawing.Size(91, 82);
             this.TwoTwo.TabIndex = 4;
+            this.TwoTwo.TabStop = false;
             this.TwoTwo.UseVisualStyleBackColor = true;
             this.TwoTwo.Click += new System.EventHandler(this.TwoTwo_Click);
             // 
             // TwoThree
             // 
+            this.TwoThree.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.TwoThree.CausesValidation = false;
+            this.TwoThree.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.TwoThree.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F);
             this.TwoThree.Location = new System.Drawing.Point(206, 100);
             this.TwoThree.Name = "TwoThree";
             this.TwoThree.Size = new System.Drawing.Size(91, 82);
             this.TwoThree.TabIndex = 5;
+            this.TwoThree.TabStop = false;
             this.TwoThree.UseVisualStyleBackColor = true;
             this.TwoThree.Click += new System.EventHandler(this.TwoThree_Click);
             // 
             // ThreeOne
             // 
+            this.ThreeOne.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.ThreeOne.CausesValidation = false;
+            this.ThreeOne.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ThreeOne.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F);
             this.ThreeOne.Location = new System.Drawing.Point(12, 188);
             this.ThreeOne.Name = "ThreeOne";
             this.ThreeOne.Size = new System.Drawing.Size(91, 82);
             this.ThreeOne.TabIndex = 6;
+            this.ThreeOne.TabStop = false;
             this.ThreeOne.UseVisualStyleBackColor = true;
             this.ThreeOne.Click += new System.EventHandler(this.ThreeOne_Click);
             // 
             // ThreeTwo
             // 
+            this.ThreeTwo.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.ThreeTwo.CausesValidation = false;
+            this.ThreeTwo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ThreeTwo.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F);
             this.ThreeTwo.Location = new System.Drawing.Point(109, 188);
             this.ThreeTwo.Name = "ThreeTwo";
             this.ThreeTwo.Size = new System.Drawing.Size(91, 82);
             this.ThreeTwo.TabIndex = 7;
+            this.ThreeTwo.TabStop = false;
             this.ThreeTwo.UseVisualStyleBackColor = true;
             this.ThreeTwo.Click += new System.EventHandler(this.ThreeTwo_Click);
             // 
             // ThreeThree
             // 
+            this.ThreeThree.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.ThreeThree.CausesValidation = false;
+            this.ThreeThree.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ThreeThree.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F);
             this.ThreeThree.Location = new System.Drawing.Point(206, 188);
             this.ThreeThree.Name = "ThreeThree";
             this.ThreeThree.Size = new System.Drawing.Size(91, 82);
             this.ThreeThree.TabIndex = 8;
+            this.ThreeThree.TabStop = false;
             this.ThreeThree.UseVisualStyleBackColor = true;
             this.ThreeThree.Click += new System.EventHandler(this.ThreeThree_Click);
             // 

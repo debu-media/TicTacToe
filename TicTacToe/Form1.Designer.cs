@@ -58,6 +58,7 @@
             this.HumanVsHuman.Name = "HumanVsHuman";
             this.HumanVsHuman.Size = new System.Drawing.Size(414, 66);
             this.HumanVsHuman.TabIndex = 1;
+            this.HumanVsHuman.TabStop = false;
             this.HumanVsHuman.Text = "Human vs Human";
             this.HumanVsHuman.UseVisualStyleBackColor = false;
             this.HumanVsHuman.Click += new System.EventHandler(this.HumanVsHuman_Click);
@@ -70,6 +71,7 @@
             this.HumanVsComputer.Name = "HumanVsComputer";
             this.HumanVsComputer.Size = new System.Drawing.Size(414, 66);
             this.HumanVsComputer.TabIndex = 2;
+            this.HumanVsComputer.TabStop = false;
             this.HumanVsComputer.Text = "Human vs Computer";
             this.HumanVsComputer.UseVisualStyleBackColor = false;
             this.HumanVsComputer.Click += new System.EventHandler(this.HumanVsComputer_Click_1);
@@ -82,6 +84,7 @@
             this.Credits.Name = "Credits";
             this.Credits.Size = new System.Drawing.Size(414, 66);
             this.Credits.TabIndex = 3;
+            this.Credits.TabStop = false;
             this.Credits.Text = "Credits";
             this.Credits.UseVisualStyleBackColor = false;
             this.Credits.Click += new System.EventHandler(this.Credits_Click);
@@ -94,6 +97,7 @@
             this.Settings.Name = "Settings";
             this.Settings.Size = new System.Drawing.Size(414, 66);
             this.Settings.TabIndex = 4;
+            this.Settings.TabStop = false;
             this.Settings.Text = "Settings";
             this.Settings.UseVisualStyleBackColor = false;
             this.Settings.Click += new System.EventHandler(this.Settings_Click);
@@ -102,10 +106,11 @@
             // 
             this.Back.BackColor = System.Drawing.Color.Gainsboro;
             this.Back.Font = new System.Drawing.Font("Niagara Engraved", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Back.Location = new System.Drawing.Point(44, 326);
+            this.Back.Location = new System.Drawing.Point(47, 254);
             this.Back.Name = "Back";
             this.Back.Size = new System.Drawing.Size(414, 66);
             this.Back.TabIndex = 5;
+            this.Back.TabStop = false;
             this.Back.Text = "Back";
             this.Back.UseVisualStyleBackColor = false;
             this.Back.Visible = false;
@@ -115,10 +120,11 @@
             // 
             this.Save.BackColor = System.Drawing.Color.Gainsboro;
             this.Save.Font = new System.Drawing.Font("Niagara Engraved", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Save.Location = new System.Drawing.Point(44, 254);
+            this.Save.Location = new System.Drawing.Point(44, 326);
             this.Save.Name = "Save";
             this.Save.Size = new System.Drawing.Size(414, 66);
             this.Save.TabIndex = 6;
+            this.Save.TabStop = false;
             this.Save.Text = "Save";
             this.Save.UseVisualStyleBackColor = false;
             this.Save.Visible = false;
@@ -145,7 +151,7 @@
             // CreditsLBL
             // 
             this.CreditsLBL.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.CreditsLBL.Location = new System.Drawing.Point(44, 110);
+            this.CreditsLBL.Location = new System.Drawing.Point(44, 112);
             this.CreditsLBL.Name = "CreditsLBL";
             this.CreditsLBL.Size = new System.Drawing.Size(414, 208);
             this.CreditsLBL.TabIndex = 9;

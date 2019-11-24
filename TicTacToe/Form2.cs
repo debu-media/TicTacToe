@@ -28,11 +28,20 @@ namespace TicTacToe
         private void Winner()
         {
             bool Winner = false;
+            string WinnerName = "";
             if(OneOne.Text == OneTwo.Text && OneOne.Text == OneThree.Text && OneOne.Text !="" || TwoOne.Text== TwoTwo.Text && TwoOne.Text == TwoThree.Text && TwoOne.Text !="" || ThreeOne.Text == ThreeTwo.Text && ThreeOne.Text==ThreeThree.Text && ThreeOne.Text !="" || OneOne.Text == TwoTwo.Text && OneOne.Text==ThreeThree.Text && OneOne.Text!="" || OneThree.Text == TwoTwo.Text && OneThree.Text == ThreeOne.Text && ThreeOne.Text != "" || OneOne.Text == TwoOne.Text && OneOne.Text == ThreeOne.Text && OneOne.Text != "" || OneTwo.Text == TwoTwo.Text && OneTwo.Text == ThreeTwo.Text && OneTwo.Text != "" || OneThree.Text == TwoThree.Text && OneThree.Text == ThreeThree.Text && OneThree.Text != "")
             {
+                if(OneOne.Text=="X" || OneTwo.Text =="X" || OneThree.Text=="" ||TwoOne.Text=="X" || TwoTwo.Text=="X" || TwoThree.Text=="X" ||ThreeOne.Text=="X"| ThreeTwo.Text=="X" | ThreeThree.Text=="X")
+                {
+                    WinnerName = UserOneName.Text;
+                }
+                else
+                {
+                    WinnerName = UserTwoName.Text;
+                }
                 Winner = true;
-                string message = "Do you want to restart game?";
-                string title = "End Game!";
+                string message = "Winner is: " + WinnerName + "\nRestart Game?";
+                string title = WinnerName + " Winner!";
                 MessageBoxButtons buttons = MessageBoxButtons.YesNo;
                 DialogResult result = MessageBox.Show(message, title, buttons);
                 if (result == DialogResult.Yes)
